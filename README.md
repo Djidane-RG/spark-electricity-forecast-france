@@ -15,5 +15,8 @@ Ce jeu de données peut également être téléchargé via une API qui autorise 
 
 Il existe déjà de nombreux travaux sur la prédiction de la consommation électrique, ce projet propose avec modestie une approche prenant appui sur les données mises à disposition du grand public.
 Les principaux objectifs du projet sont donc les suivants : 
-1-	Une étude de la corrélation entre les variables climatiques et la consommation électrique nationale et régionale française. Est-elle significative ? Est-ce que certaines variables climatiques ont un impact plus ou moins important sur la consommation électrique.
-2-	La création d’un modèle permettant de prédire à partir de différentes variables dont les variables climatiques générées par les stations la consommation électrique potentielle régionale française.
+* Une étude de la corrélation entre les variables climatiques et la consommation électrique nationale et régionale française. Est-elle significative ? Est-ce que certaines variables climatiques ont un impact plus ou moins important sur la consommation électrique.
+* La création d’un modèle permettant de prédire à partir de différentes variables dont les variables climatiques générées par les stations la consommation électrique potentielle régionale française.
+
+## Architecture globale : 
+
