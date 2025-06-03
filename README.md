@@ -18,5 +18,15 @@ Les principaux objectifs du projet sont donc les suivants :
 * Une étude de la corrélation entre les variables climatiques et la consommation électrique nationale et régionale française. Est-elle significative ? Est-ce que certaines variables climatiques ont un impact plus ou moins important sur la consommation électrique.
 * La création d’un modèle permettant de prédire à partir de différentes variables dont les variables climatiques générées par les stations la consommation électrique potentielle régionale française.
 
+
+## Etapes : 
+
+Afin de répondre à ces différents objectifs, les étapes du projet ont été les suivants : 
+* Analyse d’un échantillon de données provenant des API de météo France et ODRE afin de confirmer qu’il existe un lien entre la consommation électrique et les variables des capteurs climatiques.
+* Identification des correspondances possibles entre les variables des capteurs climatiques et celles du modèle atmosphérique AROME.
+* Création de la base de données qui sera utilisée pour stocker les différentes variables, pour créer le modèle et l’appliquer aux données. 
+* Création du modèle prédictif de la consommation et test des performances. 
+* Récupération des données AROME et application du modèle prédictif.
+
 ## Architecture globale : 
 
