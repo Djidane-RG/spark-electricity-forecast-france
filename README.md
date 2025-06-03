@@ -1,1 +1,19 @@
-# spark-electricity-consumption-ml
+# Prédiction de la consommation électrique française avec Spark et Cassandra.
+
+## Contexte :
+
+Ce projet a été réalisé dans le cadre du projet final de la certification de spécialisation 'Analyste de données massives' du Conservatoire National des Arts et Métiers (Cnam).
+Depuis janvier 2024, toutes les données publiques de Météo-France disposent d'une possibilité d'accès sans aucun frais et sont gratuitement réutilisables. Météo France met notamment à disposition gratuitement via une API dédiée les données climatologiques générées par des stations situées en métropole et outre-mer. 
+Ces centaines de stations génèrent différents types de données comme la température, la quantité et la durée des précipitations ou encore la force du vent à intervalle régulier (toutes les heures voire toutes les six minutes pour les données concernant les précipitations). 
+Ces données sont également historisées et il est possible de remonter plusieurs années auparavant afin d’obtenir des informations sur le climat dans différentes zones données.
+Open Data Réseaux Énergies (ODRE) met pour sa part à disposition plusieurs jeux de données sur la consommation électrique en France. L’un des jeux de données présente les courbes de consommation régionale électrique (mis à jour toutes les 15 minutes en Mégawatt) 
+Ce jeu de données peut également être téléchargé via une API qui autorise la recherche selon différents paramètres. Les données sont également historisées et il est possible de récupérer la consommation électrique régionale depuis janvier 2023 
+
+
+
+## Objectifs poursuivis / Livrables : 
+
+Il existe déjà de nombreux travaux sur la prédiction de la consommation électrique, ce projet propose avec modestie une approche prenant appui sur les données mises à disposition du grand public.
+Les principaux objectifs du projet sont donc les suivants : 
+1-	Une étude de la corrélation entre les variables climatiques et la consommation électrique nationale et régionale française. Est-elle significative ? Est-ce que certaines variables climatiques ont un impact plus ou moins important sur la consommation électrique.
+2-	La création d’un modèle permettant de prédire à partir de différentes variables dont les variables climatiques générées par les stations la consommation électrique potentielle régionale française.
