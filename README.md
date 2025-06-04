@@ -26,7 +26,7 @@ Les principaux objectifs du projet sont donc les suivants :
 ## Etapes : 
 
 Afin de répondre à ces différents objectifs, les étapes du projet ont été les suivants : 
-* Analyse d’un échantillon de données provenant des API de météo France et ODRE afin de confirmer qu’il existe un lien entre la consommation électrique et les variables des capteurs climatiques.
+* [Analyse d’un échantillon de données provenant des API de météo France et ODRE afin de confirmer qu’il existe un lien entre la consommation électrique et les variables des capteurs climatiques.](notebooks/0-exploration-d-un-échantillon-de-données-2025.ipynb) 
 * Identification des correspondances possibles entre les variables des capteurs climatiques et celles du modèle atmosphérique AROME.
 * Création de la base de données qui sera utilisée pour stocker les différentes variables, pour créer le modèle et l’appliquer aux données. 
 * Création du modèle prédictif de la consommation et test des performances. 
