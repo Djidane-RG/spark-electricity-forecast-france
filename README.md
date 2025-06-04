@@ -1,5 +1,9 @@
 # Prédiction de la consommation électrique française avec Spark et Cassandra.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6e6da88b-7fe6-4250-93ad-870d7cf7eb47" alt="image" width="600">
+</p>
+
 ## Contexte :
 
 Ce projet a été réalisé dans le cadre du projet final de la certification de spécialisation 'Analyste de données massives' du Conservatoire National des Arts et Métiers (Cnam).
@@ -11,7 +15,7 @@ Ce jeu de données peut également être téléchargé via une API qui autorise 
 
 
 
-## Objectifs poursuivis / Livrables : 
+## Objectifs poursuivis / livrables : 
 
 Il existe déjà de nombreux travaux sur la prédiction de la consommation électrique, ce projet propose avec modestie une approche prenant appui sur les données mises à disposition du grand public.
 Les principaux objectifs du projet sont donc les suivants : 
