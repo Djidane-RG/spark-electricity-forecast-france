@@ -28,5 +28,6 @@ Afin de répondre à ces différents objectifs, les étapes du projet ont été 
 * Création du modèle prédictif de la consommation et test des performances. 
 * Récupération des données AROME et application du modèle prédictif.
 
-## Architecture globale : 
+## Architecture : 
 
+Les détails sur l'architecture de stockage utilisée ou encore les résultats obtenus sont disponibles dans le rapport projet situé à la racine de ce repository
