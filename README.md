@@ -26,11 +26,19 @@ Les principaux objectifs du projet sont donc les suivants :
 ## Etapes : 
 
 Afin de répondre à ces différents objectifs, les étapes du projet ont été les suivants : 
-* [Analyse d’un échantillon de données provenant des API de météo France et ODRE afin de confirmer qu’il existe un lien entre la consommation électrique et les variables des capteurs climatiques.](notebooks/0-exploration-d-un-échantillon-de-données-2025.ipynb) 
+* Analyse d’un échantillon de données provenant des API de météo France et ODRE afin de confirmer qu’il existe un lien entre la consommation électrique et les variables des capteurs climatiques.
 * Identification des correspondances possibles entre les variables des capteurs climatiques et celles du modèle atmosphérique AROME.
 * Création de la base de données qui sera utilisée pour stocker les différentes variables, pour créer le modèle et l’appliquer aux données. 
 * Création du modèle prédictif de la consommation et test des performances. 
 * Récupération des données AROME et application du modèle prédictif.
+
+Les notebooks qui couvrent la plupart de ces étapes sont disponibles sur le repositery : 
+
+|Nom du notebook | Description | Lien |
+|------|-------------|------|
+|0-exploration-d-un-échantillon-de-données-2025.ipynb|Explorer les données météo et analyse des corrélations|[ici]('notebooks/0-exploration-d-un-échantillon-de-données-2025.ipynb)|
+|1-Sélection_des_données,_pré-traitement_et_stockage_dans_Cassandra_2025|Récupération des données des stations météo en région Grand Est et stockage|[ici](notebooks/1-Sélection_des_données,_pré-traitement_et_stockage_dans_Cassandra_2025.ipynb)|
+
 
 ## Architecture : 
 
