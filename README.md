@@ -43,5 +43,9 @@ Afin de répondre à ces différents objectifs, les étapes du projet ont été 
 
 ## Architecture : 
 
-Les détails sur l'architecture de stockage utilisée (Cassandra), le moteur de calcul distribué (Spark) ou encore les résultats obtenus sont disponibles dans le rapport projet situé à la racine dans le dépôt à cette [adresse](Rapport_Projet_UASB03_2025.pdf)
+Les détails sur l'architecture de stockage utilisée (Cassandra), le moteur de calcul distribué (Spark) ou encore les résultats obtenus sont disponibles dans le rapport projet situé à la racine du dépôt à cette [adresse](Rapport_Projet_UASB03_2025.pdf)
 
+Cliquez ici pour voir le
+    <a href="https://formation.cnam.fr/rechercher-par-discipline/certificat-de-specialisation-analyste-de-donnees-massives-669531.kjsp" target="_blank" rel="noopener noreferrer">
+      certificat de spécialisation Analyste de données massives
+    </a>
